@@ -1,0 +1,54 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.pad-x{
+    padding: 0  3rem;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(221, 218, 218);
+}
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+.sel-styl {
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.bg-main{
+    max-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bgStyle{
+    background-image: url(./assets/bg3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h5{
+    font-family: 'Montserrat', sans-serif
+}
