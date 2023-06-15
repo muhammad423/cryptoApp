@@ -15,7 +15,7 @@ const Header = () => {
   console.log(user, "user");
 
   return (
-    <div className="bg-[#000] text-[#f9f9f9] w-full fixed top-0 left-0 pad-x z-10">
+    <div className="bg-[#000] text-[#f9f9f9] w-full fixed top-0 left-0 md:px-10 px-2 z-10">
       <div className="flex justify-between items-center mx-auto h-16">
         <div className="cursor-pointer flex items-center gap-20">
           <img
@@ -37,7 +37,7 @@ const Header = () => {
         ) : (
           <div>
             <button
-              className="text-xl bg-[#7AA93C] px-7 py-2 rounded-sm  hover:border hover:bg-transparent duration-300"
+              className="md:text-xl text-lg bg-[#7AA93C] px-5 py-2 rounded-sm  hover:border hover:bg-transparent duration-300"
               onClick={() => loginWithRedirect()}
             >
               LOGIN
